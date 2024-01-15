@@ -5,8 +5,8 @@
     font-family: 'Mulish', sans-serif;
 }
 header{
-    width: 80%;
-    border: 2px solid black;
+    /* width: 80%; */
+    max-width: 1170px;
     margin: 0 auto;
 }
 
@@ -48,5 +48,65 @@ ul > li > a{
 /* Nav section style start */
 
 /* Banner section style start */
-
+.banner{
+    height: 500px;
+    border-radius: 1rem;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner > .title{
+    max-width: 676px;
+    text-align: center;
+}
+.banner > .title > h1{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+}
+.banner > .title > p{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6rem; 
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+.searcharea{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 16px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+.searcharea > input{
+    padding: 6px 15px;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.primearybtn{
+    padding: 6px 40px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.primearybtn > img{
+    width: 12px;
+    height: 12px;
+}
 /* Banner section style end */
