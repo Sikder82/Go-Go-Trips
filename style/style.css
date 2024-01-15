@@ -7,7 +7,7 @@
 header{
     /* width: 80%; */
     max-width: 1170px;
-    margin: 0 auto;
+    margin: 0 auto 100px;
 }
 
 /* Nav section style start */
@@ -33,13 +33,13 @@ nav{
 .trip{
     color:#FF5400;
 }
-ul{
+.nav{
     display: flex;
     list-style: none;
     gap: 44px;
     align-items: center;
 }
-ul > li > a{
+.nav > li > a{
     font-size: 1.1rem;
     text-decoration: none;
     color: #424247;
@@ -94,7 +94,7 @@ ul > li > a{
     font-weight: 400;
 }
 .primearybtn{
-    padding: 6px 40px;
+    padding: 6px 45px;
     border: none;
     display: flex;
     align-items: center;
@@ -110,3 +110,42 @@ ul > li > a{
     height: 12px;
 }
 /* Banner section style end */
+
+main{
+    max-width: 1170px;
+    margin: 0 auto 100px;
+}
+/*Popular Section Style start*/
+.popular{
+    display: flex;
+    justify-content: space-between;
+}
+.populartitle{
+    width: 50%;
+}
+.popularimg{
+    width: 50%;
+}
+.populartitle > h3{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.populartitle > p, ul > li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    margin: 1.5rem 0;
+}
+.readmore{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    padding: 12px 30px;
+}
+/*Popular Section Style end*/
