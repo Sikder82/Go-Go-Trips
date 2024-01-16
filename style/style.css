@@ -300,3 +300,53 @@ main{
     height: 64px;
 } */
 /*Why choose us section style End*/
+
+/*Newsletter section Style start*/
+.newsletter{
+    display: flex;
+    justify-content: space-between;
+}
+.newstitle{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #FF5400;
+    padding: 30px;
+    border-radius: 16px;
+}
+.newstitle > h3{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.newstitle > p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    max-width: 350px;
+    margin-top: 1rem;
+}
+.newstitle > hr{
+    color: rgba(19, 19, 24, 0.10);
+    margin: 1.2rem 0;
+}
+input{
+    padding: 1rem 1.2rem;
+    margin: 0.8rem 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+}
+.submit{
+    background-color: #FF5400;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+/*Newsletter section Style end*/
+
+footer{
+    width: 100%;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+}
