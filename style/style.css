@@ -15,6 +15,7 @@ nav{
    margin: 50px 0; 
    display: flex;
    justify-content: space-between;
+   align-items: center;
 }
 
 .logo{
@@ -24,6 +25,8 @@ nav{
     font-size: 2.2rem;
     font-weight: 800;
 }
+
+
 .logo > img{
     width: 5rem;
 }
@@ -45,17 +48,22 @@ nav{
     color: #424247;
     font-weight: 400;
 }
+.bar{
+    display: none;
+}
 /* Nav section style start */
 
 /* Banner section style start */
 .banner{
-    height: 500px;
     border-radius: 1rem;
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(/Images/Group\ 13\ \(1\)\ \(1\).png);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .banner > .title{
     max-width: 676px;
@@ -257,8 +265,6 @@ main{
     margin-bottom: 1.5rem; 
 }
 .card1{
-    width: 509px;
-    height: 200px;
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
@@ -298,22 +304,7 @@ main{
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
 }
-/* .card3 > .cardtitle{
-    color: #131318;
-    font-size: 1.5rem;
-    font-weight: 800;
-}
-.card3 > .carddis{
-    color: #5A5A5D;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5rem;
-    max-width: 486px; 
-}
-.card3 > .cardicon{
-    width: 64px;
-    height: 64px;
-} */
+
 /*Why choose us section style End*/
 
 /*Newsletter section Style start*/
@@ -356,6 +347,33 @@ input{
     background-color: #FF5400;
     color: #FFF;
     font-size: 1.2rem;
+    font-weight: 800;
+}
+.newsimg{
+    position: relative;
+}
+.discount{
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    right: 10px;
+    bottom: 50px;
+}
+
+.discount > h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.discount > h2{
+    font-size: 32px;
     font-weight: 800;
 }
 /*Newsletter section Style end*/
