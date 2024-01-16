@@ -77,8 +77,8 @@ nav{
     margin-bottom: 2.5rem;
 }
 .searcharea{
-    display: inline-flex;
-    align-items: flex-start;
+    display: flex;
+    align-items: center;
     gap: 24px;
     padding: 16px;
     border-radius: 8px;
@@ -93,6 +93,7 @@ nav{
     font-size: 1rem;
     font-weight: 400;
 }
+
 .primearybtn{
     padding: 6px 45px;
     border: none;
@@ -172,21 +173,35 @@ main{
     margin: 24px 0 48px;
 }
 .choosecollage{
-    display: grid;
-    grid-template-columns: repeat(2, 50%) ;
-    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+.collage1{
+    display: flex;
+    justify-content: space-between;
+}
+.collage2{
+    display: flex;
+    justify-content: space-between;
+}
+.collage3{
+    display: flex;
+    justify-content: space-between;
 }
 .Maldives, .Indonesia, .Srilanka, .America, .Kashmir, .Bangladesh, .Bandarban{
     width: 573px;
     height: 300px;
     border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(/Images/Rectangle\ 5.png), lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(/Images/Rectangle\ 5.png), lightgray 50% ;
     color: #FFF;
     font-size: 1.75rem;
     font-weight: 800;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .Indonesia{
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(/Images/Rectangle\ 8.png), lightgray 50% / cover no-repeat;
@@ -348,7 +363,7 @@ input{
 /* Footer section style start */
 footer{
     width: 100%;
-    height: 502px;
+    /* height: 502px; */
     background: rgba(19, 19, 24, 0.05);
     display: flex;
     flex-direction: column;
@@ -358,7 +373,7 @@ footer{
     display: flex;
     gap: 0.8rem;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .footerlogo > h2{
     color: #131318;
@@ -389,6 +404,7 @@ footer > hr{
     color: #131318;
     font-size: 1rem;
     font-weight: 400;
+    margin: 100px;
 }
 
 /* Footer section style end */
