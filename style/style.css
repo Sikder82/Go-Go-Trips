@@ -56,9 +56,9 @@ nav{
 /* Banner section style start */
 .banner{
     border-radius: 1rem;
-    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(Images/Group 13 (1) (1).png);
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(/Images/Group\ 13\ \(1\)\ \(1\).png);
     display: flex;
-    flex-direction: column;Images/Group 13 (1) (1).png
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 100px;
@@ -196,7 +196,7 @@ main{
     width: 573px;
     height: 300px;
     border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle 5.png), lightgray 50% ;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(/Images/Rectangle\ 5.png), lightgray 50% ;
     color: #FFF;
     font-size: 1.75rem;
     font-weight: 800;
@@ -207,32 +207,32 @@ main{
     background-size: cover;
 }
 .Indonesia{
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle 8.png), lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(/Images/Rectangle\ 8.png), lightgray 50% / cover no-repeat;
 }
 .Srilanka{
     width: 374px;
     height: 286px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle 6.png), lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(/Images/Rectangle\ 6.png), lightgray 50% / cover no-repeat;
 }
 .America{
     width: 474px;
     height: 286px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle 7.png), lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(/Images/Rectangle\ 7.png), lightgray 50% / cover no-repeat;
 }
 .Kashmir{
     width: 274px;
     height: 286px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle 9.png), lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(/Images/Rectangle\ 9.png), lightgray 50% / cover no-repeat;
 }
 .Bangladesh{
     width: 473px;
     height: 300px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle 11.png), lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(/Images/Rectangle\ 11.png), lightgray 50% / cover no-repeat;
 }
 .Bandarban{
     width: 673px;
     height: 300px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle 10.png), lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(/Images/Rectangle\ 10.png), lightgray 50% / cover no-repeat;
 }
 /* Choose section style end */
 
